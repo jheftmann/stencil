@@ -681,8 +681,8 @@ The `overlay` class creates a fixed element that takes over the screen. It uses 
 
 /*doc
 ---
-title: Helpers
-name: helpers
+title: Layout
+name: layout
 category: Helpers
 ---
 
@@ -695,3 +695,65 @@ clear: both;
 <div class="clear"></div>
 ```
 */
+
+.clear {
+  clear: both;
+}
+
+/*doc
+---
+title: Type
+name: type
+category: Helpers
+---
+
+`.t-hyphenate`
+
+`.t-un-hyphenate`
+
+*/
+
+.t-hyphenate {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+.t-un-hyphenate {
+  overflow-wrap: normal;
+  word-wrap: normal;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
+
+/*doc
+---
+title: Appearance
+name: appearance
+category: Helpers
+---
+
+Documentation here
+
+*/
+
+// styles here
+
+
+/*doc
+---
+title: Transitions and Effects
+name: transitions and effects
+category: Helpers
+---
+
+Documentation here
+
+*/
+
+// styles here
