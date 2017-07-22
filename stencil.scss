@@ -18,14 +18,14 @@ Set break points which are used in break point mixins, text and the Bootstrap gr
 | `$screen-xxl-min` | 1800px
 
 **Width**
-  
+
 You should implement a mobile first approach so you use `from` over `to` when possible.
-  
+
 + `@from($device-width)`
 + `@to($device-width)`
-  
+
 The following shorthand mixins have been created for your convenience.
-  
+
 | Mixin | Description
 | ---    | ---
 | `@include xs {}` | Extra small screen size and up
@@ -33,10 +33,10 @@ The following shorthand mixins have been created for your convenience.
 | `@include md {}` | Medium screen size and up
 | `@include lg {}` | Large screen size and up
 | `@include xl {}` | Extra large screen size and up
-  
+
 
 **Height**
-  
+
 + `@from-height($device-height)`
 + `@to-height($device-height)`
 */
@@ -677,4 +677,21 @@ The `overlay` class creates a fixed element that takes over the screen. It uses 
 
 [HTML](https://gist.github.com/micdijkstra/fee39ba536ce78f4411b8ececca41763)
 [Sass](https://gist.github.com/micdijkstra/c6662a9b82efdca761e705e82564c693)
+*/
+
+/*doc
+---
+title: Helpers
+name: helpers
+category: Helpers
+---
+
+```
+.clear {
+clear: both;
+}
+```
+```
+<div class="clear"></div>
+```
 */
